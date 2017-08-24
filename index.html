@@ -15,7 +15,12 @@
     <main>
       <section>
         <article>
-          <input class="user-input" type="text" name="userInput" value="" placeholder="Enter Your Guess">
+          <div>
+          <input class="user-min" type="text" placeholder="Min">
+          <input class="user-max" type="text" placeholder="Max">
+          <button class="user-set-random-number" disabled>Set Your Own Random Number!</button>
+          </div>
+          <input class="user-input" type="text" name="userInput" placeholder="Enter Your Guess">
           <div>
           <button class="guess-button" disabled>Guess</button>
           <button class="clear-button" disabled>Clear</button>
